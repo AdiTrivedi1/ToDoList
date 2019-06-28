@@ -1,0 +1,157 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color: #aaa;
+     color: #fff;
+ }
+
+ #container {
+     background-color: #666;
+     padding: 20px;
+     overflow: hidden;
+ }
+
+ #container>h1 {
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 2.5em;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #fff;
+     text-shadow: 3px 4px 5px #333;
+ }
+ 
+ #appIcon{
+     width: 65px;
+     margin-left: -80px;
+ }
+
+ #title {
+     float: right;
+     margin: 5px 20px 0 0;
+ }
+
+ #controls {
+     height: 80px;
+     overflow: auto;
+ }
+
+ #controls>h2 {
+     float: left;
+     font-size: 2em;
+     padding-left: 45px;
+     margin: 10px 0;
+ }
+
+#add {
+    float: right;
+    width: 30px;
+    margin-top: 25px;
+    padding-right: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+ ul {
+     padding: 0;
+     margin: 0;
+ }
+
+ li, input {
+     list-style: none;
+     /* removes the bullets from the list */
+     font-weight: 400;
+     width: 300px;
+     padding: 10px;
+     margin: 10px auto;
+     box-shadow: 3px 4px 5px #444;
+     background-color: rgba(5, 199, 199, 0.7);
+ }
+
+ input {
+     border: none;
+     margin-left: 70px;
+     color: #fff;
+ } 
+
+ .do_not_show {
+     display: none;
+ }
+
+ .usage {
+     background-color: #444;
+     width: 80%;
+     font-size: 0.7em;
+     margin: 0 auto;
+     padding: 10px;
+ }
+ 
+
+
+ .delete {
+     width: 25px;
+     float: right;
+     right: 25px;
+     margin-top: -2px;
+ }
+
+ li.hot {
+     background-color: rgba(255, 0, 0, 0.589);
+ }
+
+ li.cool {
+     background-color: rgba(255, 145, 0, 0.815);
+
+ }
+
+ li.complete {
+     background-color: #666;
+ }
+
+ li.test {
+     border: 2px solid #fff;
+ }
+
+ @media(min-width: 550px){
+    #container {
+        padding: 20px;
+        width: 500px;
+        margin: 50px auto;
+        box-shadow: 8px 10px 10px #555;
+    }
+
+    #container>h1 {
+        font-size: 2.7em;
+    }
+
+    #appIcon {
+        width: 80px;
+        margin-left: -120px;
+    }
+
+    #container>h2 {
+        font-size: 2em;
+    }
+
+    #add {
+        width: 40px;
+    }
+
+    .delete {
+        width: 30px;
+    }
+
+    li {
+        padding: 10px;
+        font-weight: 500;
+
+    }
+
+    input {
+        margin-left: 90px;
+    }
+ }
